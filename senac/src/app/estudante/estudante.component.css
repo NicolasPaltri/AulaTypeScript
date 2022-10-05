@@ -1,0 +1,20 @@
+@import url('http://fonts.cdnfonts.com/css/tex-gyre-pagella');
+.light{
+    color: rgb(2, 190, 2);
+    font-family: 'TeXGyrePagella', sans-serif;
+    
+}
+.light1{
+    color: rgb(255, 1, 1);
+    font-family: 'TeXGyrePagella', sans-serif;
+    
+
+}
+
+.corpo{
+    text-align: center;
+    padding: 10px;
+    font-family: 'TeXGyrePagella', sans-serif;
+   
+    
+}
