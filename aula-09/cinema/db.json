@@ -1,0 +1,30 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "titulo":"Terror",
+            "imagePath": "../../assets//images/dracula.png"
+        },
+        {
+            "id": 2,
+            "titulo":"Aventura",
+            "imagePath":"../../assets//images/climbing.png"
+        },
+        {
+            "id": 3,
+            "titulo":"Romance",
+            "imagePath":"../../assets//images/romance.png"
+        },
+        {
+            "id": 4,
+            "titulo":"Comedia",
+            "imagePath":"../../assets/images/comedy.png"
+        },
+        {
+            "id": 5,
+            "titulo":"Heroi",
+            "imagePath":"../../assets/images/superhero.png"
+        }
+
+    ]
+}

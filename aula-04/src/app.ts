@@ -1,10 +1,10 @@
-import { Buscar } from "./buscar";
+import { Laptop } from "./computador-base";
+import { Lenovo } from "./lenovo";
 
-let numeros: Array<number> = [3, 5, 7, 9, 11, 13, 15];
-let x: number = 7;
+let computador = new Laptop(21);
+console.log(computador.ligarMonitor());
 
-let b: Buscar = new Buscar();
+let lenovo = new Lenovo();
 
-let achei: boolean = b.existeValor(numeros, x);
-
-console.log(`Encontrou o valor? ${(achei == false) ? 'Nao' : 'Sim'}`);
+lenovo.ligarMonitor();
+lenovo.aumentarBrilho(3);

@@ -37,7 +37,7 @@
   }
 
   input:checked + .slider {
-    background: #e7d1c1;;
+    background: rgb(241, 5, 241);;
   }
   input:checked + .slider:before {
     transform: translateX(26px);
@@ -45,6 +45,7 @@
   .dark-mode {
     background: #0b0a14;
   }
-  .dark-mode h1 {
+  .dark-mode a {
     color: #f7f0e9;
   }
+  

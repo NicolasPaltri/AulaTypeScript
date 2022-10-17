@@ -7,59 +7,26 @@
     <title>Brainstorm</title>
 
     <script>
-        function multiplicar(){
-            var a1 = document.getElementById('a1').value
-            var a2 = document.getElementById('a2').value
-            var a3 = document.getElementById('a3').value
-            
-            var total = multi(parseInt(a1), parseInt(a2), parseInt(a3));
-        
-            
+        function executar(){
+            var n1 = document.getElementById('n1').value;
+            var n2 = document.getElementById('n2').value;
+            var n3 = document.getElementById('n3').value;
+
+            var total = multiplicar(parseInt(n1), parseInt(n2), parseInt(n3));
+
             alert(total);
-    }
+        }
     </script>
 </head>
 <body>
-    <Label>Multiplicar<br>
-    <label for="">Digite um numero: </label>
+    <label>Numero 1:</label>
     <input type="text" id="n1" name="n1"><br>
-    <label for="">Digite um numero: </label>
+    <label>Numero 2:</label>
     <input type="text" id="n2" name="n2"><br>
-    <label for="">Digite um numero: </label>
+    <label>Numero 3:</label>
     <input type="text" id="n3" name="n3"><br>
-    <button onclick="multiplicar()">Multiplicar!!!</button>
-</Label><br>
+    <button onclick="executar()">Ação!!</button>
 
-<Label>SOMAR<br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n1" name="n1"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n2" name="n2"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n3" name="n3"><br>
-    <button onclick="so()">SOMAR!!!</button>
-</Label><br>
-
-<Label>DIVIDIR<br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n1" name="n1"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n2" name="n2"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n3" name="n3"><br>
-    <button onclick="div()">DIVIDIR!!!</button>
-</Label><br>
-
-<Label>SUBTRAÇÃO<br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n1" name="n1"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n2" name="n2"><br>
-    <label for="">Digite um numero: </label>
-    <input type="text" id="n3" name="n3"><br>
-    <button onclick="sub()">SUBTRAÇÃO!!!</button>
-</Label>
-
-    <script src="../dist/appDesafio.js"></script>
+    <script src="../dist/multiplica.js"></script>
 </body>
 </html>

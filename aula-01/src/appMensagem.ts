@@ -1,5 +1,5 @@
 let ano = 2021;
-let incremento = " 1";
+let incremento = "1";
 
 console.log(ano + incremento);
-console.log ('Demonstração do tsc');
+console.log('Demonstração do tsc');
